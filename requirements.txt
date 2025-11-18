@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+openai-whisper
+python-dotenv
+requests
+moviepy<2.0
+pydub
+google-genai
+redis
+python-multipart
