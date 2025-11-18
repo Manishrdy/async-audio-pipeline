@@ -152,33 +152,74 @@ docker system prune -a
 - Colletion: <https://grey-moon-445797.postman.co/workspace/Manish~283d32b7-e13d-4cd5-a9d8-96c6fb685e4b/collection/17079845-59e50f92-a031-432a-9313-b023d340143a?action=share&creator=17079845>
 
 ## Final Output
-```
 {
-  "job_id": "330b989e-1f0a-4f35-8199-1670c4a42bc6",
-  "status": "complete",
-  "summary": {
-    "keypoints": ["..."],
-    "decisions": ["..."],
-    "action_items": ["..."]
-  },
-  "per_person": {
-    "Interviewer": [
-      "Hi, Manish. So welcome...",
-      "How do you approach design?"
+    "job_id": "a7ad1243-755c-43eb-a536-7db75d4b5a37",
+    "status": "complete",
+    "summary": {
+        "keypoints": [
+            "The discussion focused on designing a service to protect backend systems from sudden request surges.",
+            "A core goal is to prevent a single heavy user from consuming all resources and impacting others.",
+            "The specific requirement is to limit a client to 100 requests per minute.",
+            "The rate limiter logic would be placed in an API gateway or a dedicated service to act as a shield for the main application.",
+            "The sliding window counter algorithm was chosen for implementing the rate limiter.",
+            "Other rate limiting algorithms like fixed window and sliding window were also mentioned."
+        ],
+        "decisions": [
+            "The rate limiter will be placed in an API gateway or a dedicated service.",
+            "The sliding window counter algorithm will be used for rate limiting implementation."
+        ],
+        "action_items": [],
+        "per_speaker_summary": {
+            "Manish Reddy": "Explained the importance of preventing resource monopolization, proposed placing rate limiting logic in an API gateway or dedicated service to shield the main application, and chose the sliding window counter algorithm for implementation.",
+            "Interviewer": "Initiated a discussion on designing services to protect backends from request surges, specified the requirement to limit client requests, and inquired about the architectural placement and implementation algorithms for rate limiting."
+        }
+    },
+    "per_person": {
+        "Manish Reddy": [
+            "you",
+            "you",
+            "you you",
+            "you",
+            "What are your core goals that you want to try to achieve here? Thanks for the introduction.",
+            "achieve here. Thanks for the introduction.",
+            "Thanks for the introduction.",
+            "So this fineness ensures that one heavy user doesn't consume all the resources and impacting the others.",
+            "all the resources and impacting the others.",
+            "Okay, that's a good one. So let's assume the requirements issue limit a client to 100 requests per minute. So what architecture layer would",
+            "client to 100 requests per minute. So what architecture layer would",
+            "place this logic in and why? Can you briefly explain that one?",
+            "So, I would place the red limiter in a API gateway or maybe in a dedicated X service. So, this acts as a shield if we put it in an application logic.",
+            "I would place the red limiter in a API gateway or maybe in a dedicated it service. So this acts as a shield if we put it in an application logic.",
+            "So this acts as a shield if we put it in a application logic.",
+            "our main application. That makes sense. Now let's talk about the implementation. There are several algorithms.",
+            "That makes sense. So now let's talk about the implementation. So there are several algorithms.",
+            "There are several algorithms.",
+            "and why. The common ones are like most usually are they like a fixed window, sliding window and sliding window counter. I would select the sliding window counter algorithm.",
+            "The common ones are like most usually, or like a fixed window, sliding window and sliding window counter. I would select the sliding window counter algorithm.",
+            "of its window, sliding window and sliding window counter. I would select the sliding window counter algorithm.",
+            "augment our content algorithm Do",
+            "by the fixed window"
+        ],
+        "Interviewer": [
+            "Hi, Manish. So welcome. Today let's discuss a pair of business. How do you approach design?",
+            "So welcome today let's discuss a pair of business. How do you approach design?",
+            "How do you approach design?",
+            "service. So we want to protect our pack and services from being overhead by a sudden surge in request. Either that those can be malicious or",
+            "from being overhead by a sudden surge in requests. Either that, those can be malicious or...",
+            "request. Either that those can be malicious or I",
+            "and closing the connections or routing to the application. So which defeats the major purpose of here what we are trying to do.",
+            "purpose of here what we are trying to do.",
+            "say that or fix a window counter."
+        ]
+    },
+    "speakers": [
+        "Manish Reddy",
+        "Interviewer"
     ],
-    "Manish Reddy": [
-      "Thank you...",
-      "What are your core goals..."
-    ]
-  },
-  "speakers": [
-    "Interviewer",
-    "Manish Reddy"
-  ],
-  "counts": {
-    "Interviewer": 28,
-    "Manish Reddy": 37
-  }
+    "counts": {
+        "Manish Reddy": 23,
+        "Interviewer": 9
+    }
 }
 ```
 
