@@ -152,6 +152,7 @@ docker system prune -a
 - Colletion: <https://grey-moon-445797.postman.co/workspace/Manish~283d32b7-e13d-4cd5-a9d8-96c6fb685e4b/collection/17079845-59e50f92-a031-432a-9313-b023d340143a?action=share&creator=17079845>
 
 ## Final Output
+```
 {
     "job_id": "a7ad1243-755c-43eb-a536-7db75d4b5a37",
     "status": "complete",
