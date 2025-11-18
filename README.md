@@ -66,12 +66,6 @@
 
 ---
 
-## 📦 Repository
-
-- GitHub: <https://github.com/Manishrdy/polygraf_python_assessment>
-
----
-
 ## 📁 Project Layout (high-level)
 ```
 .
