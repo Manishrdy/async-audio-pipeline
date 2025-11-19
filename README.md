@@ -122,6 +122,12 @@ WHISPER_MODEL=base
 
 ## Docker
 ```
+# Clone the repo
+git clone https://github.com/Manishrdy/async-audio-pipeline.git
+
+# Change directory
+cd async-audio-pipeline
+
 # Build images and start all services
 docker compose up --build -d
 
